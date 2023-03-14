@@ -181,7 +181,7 @@ nav ul li a:hover::after{
 }
 /* ----------------------------------portfolio--------------------------- */
 #portfolio{
-    padding: 50px 0;
+    padding: 0px 0;
 
 }
 .worklist{
@@ -196,13 +196,13 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work img{
-    width: 100%;
+    width: 50%;
     border-radius: 10px;
     display: block;
     transition: transform(0.5s);
 }
 .layer{
-    width: 100%;
+    width: 50%;
     height: 0%;
     background: linear-gradient(rgba(0,0,0,0.6), #ff6200);
     border-radius: 10px;
@@ -240,7 +240,7 @@ nav ul li a:hover::after{
      padding-top: 18px;
 }
 .work:hover img{
-    transform: scale(1.1);
+    transform: scale(1.0);
 
 }
 .work:hover .layer{
